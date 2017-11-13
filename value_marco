@@ -1,0 +1,9 @@
+dizionary = {'a': 1, 'b': 2, 'c': 3}  
+
+def value(search_key):
+    if search_key in dizionary:
+        print(dizionary[search_key])
+    else:
+      print(search_key + ' not found')
+
+value(search_key)
